@@ -13,11 +13,11 @@ Entre los nodos creados existe una comunicación constante en la cual se verific
 
 # Requerimientos no funcionales
 
-•	La base de datos debe permitir realizar todas las operaciones de consulta necesarias.
-•	La base de datos debe estar disponible 24/7
-•	Se debe garantizar la seguridad de la información.
-•	Debe permitir el acceso de varios usuarios al mismo tiempo (concurrencia)
-•	Se debe garantizar la fiabilidad de la información. 
-•	Debe permitir la escalabilidad horizontal para el crecimiento del negocio.
+- La base de datos debe permitir realizar todas las operaciones de consulta necesarias.
+- La base de datos debe estar disponible 24/7
+- Se debe garantizar la seguridad de la información.
+- Debe permitir el acceso de varios usuarios al mismo tiempo (concurrencia)
+- Se debe garantizar la fiabilidad de la información. 
+- Debe permitir la escalabilidad horizontal para el crecimiento del negocio.
 
 
