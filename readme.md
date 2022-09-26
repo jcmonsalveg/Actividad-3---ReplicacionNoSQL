@@ -1,4 +1,9 @@
-# REPLICAS EN MONGODB
+
+# Replicación en MongoDB
+# Ing de Software. Bases de datos avanzadas. Iberoamericana
+
+### Brayan Steven Bonilla Castellanos :man: 
+### Juan Carlos Monsalve Gómez :man:
 
 La replicación es la acción de sincronizar la información de una base de datos a través de múltiples servidores, de tal manera que se pueda garantizar la redundancia y la disponibilidad de los datos. 
 
@@ -6,7 +11,7 @@ En el conjunto de réplicas existen varios nodos, de los cuales hay uno primario
 
 Entre los nodos creados existe una comunicación constante en la cual se verifica la existencia de los mismos (heartbeat). Frente a una caída de un servidor (donde reposa uno de los nodos), los demás nodos garantizan que no exista pérdida de la información, por ejemplo si se cae el nodo primario sucede una elección entre los nodos existentes y uno de los que quedan vivos asume el nodo de primario. Cuando el nodo caído se levante, se levantará como nodo secundario, ocurre una resincronización y se estabilizará el servicio. 
 
-# REQUERIMIENTOS NO FUNCIONALES
+# Requerimientos no funcionales
 
 •	La base de datos debe permitir realizar todas las operaciones de consulta necesarias.
 •	La base de datos debe estar disponible 24/7
